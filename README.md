@@ -1,4 +1,4 @@
-# flowtype-babel-test
+# flowtype-test
 
 This repo is a bare-bones example on using [**flow-bin**](http://npm.im/flow-bin) to add strict typing to JavaScript. It also allows for linting using [**eslint**](http://npm.im/eslint) and the [**eslint-plugin-flowtype**](http://npm.im/eslint-plugin-flowtype) plugin.
 
