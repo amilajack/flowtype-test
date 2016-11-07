@@ -1,0 +1,17 @@
+env:
+  es6: true
+  node: true
+
+extends:
+  - eslint:recommended
+  - plugin:flowtype/recommended
+
+parser: babel-eslint
+
+plugins:
+  - flowtype
+
+rules:
+  eqeqeq: [error, always]
+  no-console: warn
+  semi: [error, always]

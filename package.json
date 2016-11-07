@@ -1,0 +1,26 @@
+{
+  "name": "flowtype-test",
+  "description": "This repo is a bare-bones example on using flow-bin to add strict typing to JavaScript.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-eslint": "7.1.0",
+    "babel-plugin-transform-flow-strip-types": "6.18.0",
+    "eslint": "3.9.1",
+    "eslint-plugin-flowtype": "2.25.0",
+    "flow-bin": "0.34.0"
+  },
+  "keywords": [],
+  "license": "WTFPL",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow",
+    "lint": "eslint .",
+    "prelint": "npm run flow",
+    "pretest": "npm run lint",
+    "start": "babel-node index",
+    "test": "exit 0"
+  }
+}
